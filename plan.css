@@ -1,0 +1,56 @@
+.description h2{
+    font-size:xx-large;
+    font-weight: 900;
+}
+
+.plan-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+ 
+.option{
+    margin: 20px 10px;
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid hsl(228, 45%, 44%);
+    border-radius: 10px;
+}
+
+.option-details{
+    margin-top: 30px;
+}
+.option p{
+    color: rgb(179, 173, 173);
+    font-weight: 500;
+}
+
+.plan-duration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(231, 230, 227);
+    border: 1px solid hsl(228, 45%, 44%);
+    border-radius: 10px;
+    margin: 0px 20px;
+}
+.plan-duration img{
+    height: 40px;
+    width: 40px;
+}
+
+
+.next-button-plan{
+    display: flex;
+  justify-content: space-between;
+  margin: 80px 20px;
+  text-align: center;
+}
+
+a:nth-child(1){
+    background-color: white;
+    color: hsl(228, 45%, 44%);;
+}

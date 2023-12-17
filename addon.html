@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add-Ons page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 10px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .step:nth-child(3) .number {
+        height: 40px;
+        width: 40px;
+        background-color: antiquewhite;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="addon.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="left-box">
+          <div class="step-items">
+            <div class="step">
+              <div class="number">1</div>
+              <div class="step-information">
+                <p>STEP1</p>
+                <h4>YOUR INFO</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">2</div>
+              <div class="step-information">
+                <p>STEP2</p>
+                <h4>SELECT PLAN</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">3</div>
+              <div class="step-information">
+                <p>STEP3</p>
+                <h4>ADD-ONS</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">4</div>
+              <div class="step-information">
+                <p>STEP4</p>
+                <h4>SUMMARY</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-box">
+          <div class="description">
+            <h2>Pick add-ons</h2>
+            <h5>Add-ons help enhance your gaming experience</h5>
+          </div>
+          <div class="addons-option">
+            <div class="option">
+              <div class="tick">
+                <input type="checkbox">
+              </div>
+              <div class="details">
+                <h3>Online service</h3>
+                <p>Access to multiplayer games</p>
+              </div>
+              <div class="price">
+                <p>+$1/mo</p>
+              </div>
+            </div>
+            <div class="option">
+              <div class="tick">
+                <input type="checkbox">
+
+              </div>
+              <div class="details">
+                <h3>Larger storage</h3>
+                <p>Extra 1TB of cloud save</p>
+              </div>
+              <div class="price">
+                <p>+$2/mo</p>
+              </div>
+            </div>
+            <div class="option">
+              <div class="tick">
+                <input type="checkbox">
+
+              </div>
+              <div class="details">
+                <h3>Customizable Profile</h3>
+                <p>Custom theme on your profile</p>
+              </div>
+              <div class="price">
+                <p>+$2/mo</p>
+              </div>
+            </div>
+          </div>
+          <div class="next-button-plan">
+            <a href="/plan.html" class="button">Go Back</a>
+            <a href="/finishup.html" class="button">Next Step</a>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Bijay</a>.
+      </div>
+    </div>
+  </body>
+</html>

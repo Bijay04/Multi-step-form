@@ -1,0 +1,43 @@
+.finishup-option{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(219, 222, 222);
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.option:nth-child(1){
+    color: rgb(54, 82, 203);;
+    padding-bottom: 10px;
+  border-bottom: 1px solid rgb(156, 153, 150);
+}
+
+.total{
+    margin: 20px;
+  color: rgb(179, 173, 173);
+
+}
+
+.finishup-option{
+  color: rgb(156, 153, 150);
+}
+
+.next-button-plan {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 20px;
+    text-align: center;
+  }
+
+  a:nth-child(1){
+    background-color: white;
+    color: hsl(228, 45%, 44%);;
+}
+ 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin: 10px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .step:nth-child(2) .number {
+        height: 40px;
+        width: 40px;
+        background-color: antiquewhite;
+        color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="plan.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="left-box">
+          <div class="step-items">
+            <div class="step">
+              <div class="number">1</div>
+              <div class="step-information">
+                <p>STEP1</p>
+                <h4>YOUR INFO</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">2</div>
+              <div class="step-information">
+                <p>STEP2</p>
+                <h4>SELECT PLAN</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">3</div>
+              <div class="step-information">
+                <p>STEP3</p>
+                <h4>ADD-ONS</h4>
+              </div>
+            </div>
+            <div class="step">
+              <div class="number">4</div>
+              <div class="step-information">
+                <p>STEP4</p>
+                <h4>SUMMARY</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-box">
+          <div class="description">
+            <h2>Select your plan</h2>
+            <h5>You have the option of monthly or yearly billing.</h5>
+          </div>
+          <div class="plan-option">
+            <div class="option">
+              <img src="./assets/images/icon-arcade.svg" alt="arcade-image" />
+              <div class="option-details">
+                <h4>Arcade</h4>
+                <p>$9/mo</p>
+              </div>
+            </div>
+            <div class="option">
+              <img
+                src="./assets/images/icon-advanced.svg"
+                alt="advanced-image"
+              />
+              <div class="option-details">
+                <h4>Advanced</h4>
+                <p>$12/mo</p>
+              </div>
+            </div>
+            <div class="option">
+              <img src="./assets/images/icon-pro.svg" alt="pro-image" />
+              <div class="option-details">
+                <h4>Pro</h4>
+                <p>$15/mo</p>
+              </div>
+            </div>
+          </div>
+          <div class="plan-duration">
+            <p>Monthly</p>
+            <img
+              src="./assets/images/Toggle_On-80_icon-icons.com_57257.svg"
+              alt="checkmark-image"
+            />
+            <p>Yearly</p>
+          </div>
+          <div class="next-button-plan">
+            <a href="/index.html" class="button">Go Back</a>
+            <a href="/addon.html" class="button">Next Step</a>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Bijay</a>.
+      </div>
+    </div>
+  </body>
+</html>
